@@ -1,0 +1,8 @@
+name: ClassicDuel
+version: '1.0-SNAPSHOT'
+main: org.classicDuel.classicDuel.ClassicDuel
+api-version: '1.21'
+commands:
+  map:
+    description: Returns the current map name
+    usage: </command>

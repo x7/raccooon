@@ -1,0 +1,40 @@
+# when a map is chosen we update this to the map names from maps list
+server:
+  min-players: 2
+  max-players: 2
+  version: 1.0
+  mode-name: Classic Duels
+  current-map-name: no map name
+  game-time: 480 # in seconds
+
+# 1 > First players spawn point
+# 2 > Second players spawn point
+maps:
+  classic_map_1:
+      map_name: "First test map"
+      1:
+        x: 0.4
+        y: 71.0
+        z: -37.4
+        yaw: 0.5
+        pitch: 5.6
+      2:
+        x: 0.4
+        y: 71.0
+        z: 38.4
+        yaw: 179.9
+        pitch: 0.2
+  classic_map_2:
+      map_name: "Second test map"
+      1:
+        x: 38.4
+        y: 65.0
+        z: 0.4
+        yaw: 90.3
+        pitch: 3.2
+      2:
+        x: -37.4
+        y: 65.0
+        z: 0.5
+        yaw: -90.3
+        pitch: 0.0
